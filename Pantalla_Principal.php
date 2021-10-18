@@ -1,6 +1,6 @@
 <?php
 include 'header.php';
-echo "Aquesta es la pantalla principal";
+echo "Aquesta es la pantalla principal :)";
 
 ?>
 <div>
