@@ -1,0 +1,26 @@
+
+@import 'normalize.css';
+
+
+    body {
+        margin: 0px;
+    }
+
+
+    #header {
+    
+
+        background-color: cyan;
+        text-align: center;
+        padding: 6px;
+    }
+
+
+    #footer {
+        background-color: cyan;
+        text-align: center;
+        left: 0;
+        position: fixed;
+        bottom: 0;
+        width: 100px;
+    }
