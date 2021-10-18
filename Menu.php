@@ -1,5 +1,5 @@
 <?php
-include 'prueba.php';
+include 'header.php';
 echo "Aquest es el Menu";
 ?>
 <form action="./Validacio.php">

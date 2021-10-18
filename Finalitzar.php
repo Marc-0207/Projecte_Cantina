@@ -1,5 +1,5 @@
 <?php
-include 'prueba.php';
+include 'header.php';
 echo "Aquesta es la pantalla de Finalització";
 ?>
 <form action="./Finalitzar.php">

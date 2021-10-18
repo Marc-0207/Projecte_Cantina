@@ -1,4 +1,6 @@
 <?php
+include 'header.php';
+
 echo "Aquesta es la validació";
 ?>
 <table>

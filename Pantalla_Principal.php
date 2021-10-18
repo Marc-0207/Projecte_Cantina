@@ -1,7 +1,7 @@
 <?php
-include 'prueba.php';
+include 'header.php';
 echo "Aquesta es la pantalla principal";
-include 'prueba.php';
+
 ?>
 <div>
     <a href="./Menu.php"><button>Anar al Menu</button></a>
