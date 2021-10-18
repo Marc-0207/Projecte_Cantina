@@ -1,4 +1,5 @@
 <?php
+include 'prueba.php';
 echo "Aquesta es la pantalla d'administració"
 ?>
 <div>

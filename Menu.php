@@ -1,4 +1,5 @@
 <?php
+include 'prueba.php';
 echo "Aquest es el Menu";
 ?>
 <form action="./Validacio.php">
