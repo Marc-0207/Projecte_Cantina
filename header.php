@@ -7,8 +7,10 @@
 </head>
 
 <body>
-<div id= "header">
-    <h1>Aquest es el header</h1>
-</div>
+    <div id= "header">
+        <img id="logimg" src="/img/logo.png">
+        <h1>Cantina Pedralbes</h1>
+    </div>
+
 </body>
 
