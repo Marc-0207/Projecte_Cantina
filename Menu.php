@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< Updated upstream
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,40 +26,15 @@ foreach($decoded_json as $key => $value) {
     $pre = $decoded_json[$key]["precio"];
     $id = $decoded_json[$key]["id"];
 
+    echo "<ul>";
+    echo "<li> $pro </li> <br> $pre <br><br><button>+</button></button><input type 'text' $id=$key value='0'> <button>+</button><br>";
+    echo "</ul>";
 }
 ?>
-=======
-<?php
-include 'header.php'
-?>
-
-    
-
-<form action="./Validacio.php">
->>>>>>> Stashed changes
-    <input type="submit" value="Següent"/>
-</form>
-<div>
-    <a href="./Pantalla_Principal.php"><button>Tornar</button></a>
-</div>
-
-<<<<<<< Updated upstream
 <?php
 include 'footer.php';
 ?>
 </body>
 </html>
-
-
-
-
-
-=======
-
-
-</body>
-
-</html>
->>>>>>> Stashed changes
 
 
