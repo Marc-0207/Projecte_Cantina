@@ -10,7 +10,6 @@
 
 <?php
 include 'header.php';
-echo "Aquest es el Menu";
 ?>
 
 
@@ -35,9 +34,9 @@ foreach($decoded_json as $key => $value) {
     <a href="./Pantalla_Principal.php"><button>Tornar</button></a>
 </div>
 
-
-
-    
+<?php
+include 'footer.php';
+?>
 </body>
 </html>
 
