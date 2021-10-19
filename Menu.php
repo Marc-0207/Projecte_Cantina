@@ -12,27 +12,31 @@
 include 'header.php';
 echo "Aquest es el Menu";
 ?>
-<form action="./Validacio.php">
-    
-    <input type="submit" value="Següent"/>
-</form>
-<div>
-    <a href="./Pantalla_Principal.php"><button>Tornar</button></a>
-</div>
+
+
+<form action="./Validacio.php">    
+
 <?php
  
-$menu_json = file_get_contents('menu.json');
+$menu_json = file_get_contents('menu.json'); 
  
 $decoded_json = json_decode($menu_json, true); 
  
 foreach($decoded_json as $key => $value) {
     $pro = $decoded_json[$key]["producto"];
     $pre = $decoded_json[$key]["precio"];
-     
-    echo $pro.' is '.$pre.'.';
+    $id = $decoded_json[$key]["id"];
 
 }
 ?>
+    <input type="submit" value="Següent"/>
+</form>
+<div>
+    <a href="./Pantalla_Principal.php"><button>Tornar</button></a>
+</div>
+
+
+
     
 </body>
 </html>
