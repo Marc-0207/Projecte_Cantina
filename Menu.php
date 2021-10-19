@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< Updated upstream
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,12 +29,22 @@ foreach($decoded_json as $key => $value) {
 
 }
 ?>
+=======
+<?php
+include 'header.php'
+?>
+
+    
+
+<form action="./Validacio.php">
+>>>>>>> Stashed changes
     <input type="submit" value="Següent"/>
 </form>
 <div>
     <a href="./Pantalla_Principal.php"><button>Tornar</button></a>
 </div>
 
+<<<<<<< Updated upstream
 <?php
 include 'footer.php';
 ?>
@@ -44,5 +55,12 @@ include 'footer.php';
 
 
 
+=======
+
+
+</body>
+
+</html>
+>>>>>>> Stashed changes
 
 
