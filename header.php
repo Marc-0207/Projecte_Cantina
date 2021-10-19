@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +8,8 @@
 </head>
 
 <body>
-<<<<<<< Updated upstream
 <div id= "header">
     <h1>Aquest es el header</h1>
 </div>
-=======
+</body>
 
-<div id="header">
-    <h1> ESTO ES LA CABECERA </h1>
-</div>
->>>>>>> Stashed changes
