@@ -1,7 +1,12 @@
 <?php
 include 'header.php';
-echo "Aquesta es la pantalla d'administració"
 ?>
+<p>Aquesta es la pantalla d'administracio</p>
+
 <div>
     <a href="./Pantalla_Principal.php"><button>Tornar</button></a>
 </div>
+
+<?php
+include 'footer.php';
+?>

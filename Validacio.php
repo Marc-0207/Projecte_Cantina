@@ -1,8 +1,7 @@
 <?php
 include 'header.php';
-
-echo "Aquesta es la validació";
 ?>
+<p>Aquesta es la validacio</p>
 <table>
     <tr>
         <td><label>Nom: </label></td>
@@ -23,4 +22,6 @@ echo "Aquesta es la validació";
 <div>
     <a href="./Menu.php"><button>Tornar</button></a>
 </div>
-
+<?php
+include 'footer.php';
+?>

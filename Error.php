@@ -1,4 +1,7 @@
 <?php
 include 'header.php';
-echo "Pantalla d'error";
+?>
+<p>Aquesta es la pantalla d'error</p>
+<?php
+include 'footer.php';
 ?>
