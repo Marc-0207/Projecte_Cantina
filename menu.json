@@ -1,0 +1,25 @@
+[
+    {  
+        "producto":       "Coca Cola",   
+        "precio":      "1.5"   
+    },
+    
+    
+    {  
+        "producto":       "Cafe",   
+        "precio":      "1.2"   
+    },
+
+    
+    {  
+        "producto":       "Bocadillo de Bacon",   
+        "precio":      "2.5"   
+    },
+
+    
+    {  
+        "producto":       "Fanta",   
+        "precio":      "1.5"   
+    } 
+
+] 
