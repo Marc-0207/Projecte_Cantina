@@ -31,6 +31,12 @@ foreach($decoded_json as $key => $value) {
     echo "</ul>";
 }
 ?>
+    <input type="submit" value="Següent"/>
+</form>
+<div>
+    <a href="./Pantalla_Principal.php"><button>Tornar</button></a>
+</div>
+
 <?php
 include 'footer.php';
 ?>
