@@ -1,7 +1,9 @@
 <?php
 include 'header.php';
 echo "<h1><u>Vols compara aquests productes?</h1></u>";
-//echo $_GET["prodcuto"];
+echo $_POST;
+echo $_POST["valor"];
+
 ?>
 <p>Aquesta es la validacio</p>
 

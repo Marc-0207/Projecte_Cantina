@@ -26,7 +26,7 @@ include 'header.php';
             echo "<div id='$id'>
                     <h2> $pro </h2> $pre <br><br>
                     <input type='button' value='+' class='afegir'>
-                    <input type='text' id=i$id value='0'> 
+                    <input type='text' id=i$id name ='valor' value='0'> 
                     <input type='button' value='-' class='treure'>
                     
                     </div>";
@@ -48,7 +48,7 @@ include 'header.php';
             echo "<div id='$id'>
                     <h2> $pro </h2> $pre <br><br>
                     <input type='button' value='+' class='afegir'>
-                    <input type='text' id=i$id value='0'> 
+                    <input type='text' id=$id name ='valor' value='0'> 
                     <input type='button' value='-' class='treure'>
                     
                     </div>";
