@@ -1,5 +1,6 @@
 <?php
 include 'header.php';
+echo $_GET["prodcuto"];
 ?>
 <p>Aquesta es la validacio</p>
 <table>

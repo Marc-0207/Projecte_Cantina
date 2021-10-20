@@ -11,7 +11,7 @@
 <?php
 include 'header.php';
 ?>
-    <form method="GET" action="Validacio.php" class="mati">
+    <form method="GET" action="Validacio.php" class="mati" id="formulario">
 
         <?php
         $menu_json = file_get_contents('menu.json');
