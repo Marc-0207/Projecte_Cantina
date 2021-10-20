@@ -11,7 +11,7 @@
 <?php
 include 'header.php';
 ?>
-    <form method="GET" action="Validacio.php" class="mati" id="formulario">
+    <form method="POST" action="Validacio.php" class="mati" id="formulario">
 
         <?php
         $menu_json = file_get_contents('menu.json');
@@ -21,7 +21,10 @@ include 'header.php';
             $pre = $decoded_json[$key]["precio"];
             $id = $decoded_json[$key]["id"];
             echo "<div id='$id'>
-                    <h2> $pro </h2> $pre <br><br><input type='button' value='+' class='afegir'><input type='text' id=i$id value='0'> <input type='button' value='-' class='treure'>
+                    <h2> $pro </h2> $pre <br><br>
+                    <input type='button' value='+' class='afegir'>
+                    <input type='text' id=i$id value='0'> 
+                    <input type='button' value='-' class='treure'>
                     
                     </div>";
         }
