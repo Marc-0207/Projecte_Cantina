@@ -56,9 +56,9 @@ include 'header.php';
         ?>
         <input type="submit" value="Comprar">
     </form>
-<script> 
+<script>
 
-       const dia = new Date();
+    const dia = new Date();
        let hora = dia.getHours();
        
        console.log(hora);
@@ -74,8 +74,26 @@ include 'header.php';
 
         tarda.style.display = "none";
         }
-      
-   
+
+    let gallery = document.getElementById('mati');
+    gallery.addEventListener('click', e => {
+
+        if(e.target.classList.contains('afegir')){
+            afegirProducte(e.target.parentNode.id);
+            console.log(e.target.parentNode.id);
+        }
+        else if (e.target.classList.contains('treure')){
+            treureProducte(e.target.parentNode.id);
+        }
+        function afegirProducte(idProducte){
+            document.getElementById("i"+idProducte).value++;
+        }
+        function treureProducte(idProducte){
+            if(document.getElementById("i"+idProducte).value>0){
+                document.getElementById("i"+idProducte).value--;
+            }}
+
+    });
 </script>
 
 
