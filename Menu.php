@@ -53,12 +53,12 @@ include 'header.php';
             echo "<div id='$id'>
                     <h2> $pro </h2> $pre <br>
                     <input type='button' value='+' class='afegir'>
-                    <input type='text' id=$id name =$pro value='0'> 
+                    <input type='text' id=i$id name =$pro value='0'> 
                     <input type='button' value='-' class='treure'>
-                    
                     </div>";
         }
         ?>
+
         <input type="submit" value="Comprar">
     </form>
 <script>
@@ -71,16 +71,17 @@ include 'header.php';
        let tarda=document.getElementById("tarda");
        let mati=document.getElementById("mati");
 
-       if (hora >= 13){
-
+       let mati_o_tarda="";
+       if (hora >= 14){
+            mati_o_tarda="tarda";
            mati.style.display = "none";
        }
        else {
-
+           mati_o_tarda="mati";
             tarda.style.display = "none";
         }
 
-    mati.addEventListener('click', e => {
+    document.getElementById(mati_o_tarda).addEventListener('click', e => {
 
         if(e.target.classList.contains('afegir')){
             afegirProducte(e.target.parentNode.id);
