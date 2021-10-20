@@ -1,9 +1,12 @@
 <?php
 include 'header.php';
 echo "<h1><u>Vols compara aquests productes?</h1></u>";
-echo $_POST;
-echo $_POST["valor"];
+foreach($_POST as $pro => $value) {
 
+    if ($value!=0) {
+        print "$pro : $value<br>";
+    }
+}
 ?>
 <p>Aquesta es la validacio</p>
 

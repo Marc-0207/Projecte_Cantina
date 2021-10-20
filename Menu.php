@@ -24,11 +24,10 @@ include 'header.php';
             $pre = $decoded_json[$key]["precio"];
             $id = $decoded_json[$key]["id"];
             echo "<div id='$id'>
-                    <h2> $pro </h2> $pre <br><br>
+                    <h2> $pro </h2> $pre <br>
                     <input type='button' value='+' class='afegir'>
-                    <input type='text' id=i$id name ='valor' value='0'> 
+                    <input type='text' id=i$id name =$pro value='0'> 
                     <input type='button' value='-' class='treure'>
-                    
                     </div>";
         }
         ?>
@@ -46,9 +45,9 @@ include 'header.php';
             $pre = $decoded_json[$key]["precio"];
             $id = $decoded_json[$key]["id"];
             echo "<div id='$id'>
-                    <h2> $pro </h2> $pre <br><br>
+                    <h2> $pro </h2> $pre <br>
                     <input type='button' value='+' class='afegir'>
-                    <input type='text' id=$id name ='valor' value='0'> 
+                    <input type='text' id=$id name =$pro value='0'> 
                     <input type='button' value='-' class='treure'>
                     
                     </div>";
