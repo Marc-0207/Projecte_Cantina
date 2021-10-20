@@ -12,6 +12,8 @@
 include 'header.php';
 ?>
 
+<!-- Menu Mati-->
+
 
     <form method="POST" action="Validacio.php" id="mati">
 
@@ -33,7 +35,11 @@ include 'header.php';
         ?>
     
         <input type="submit" value="Comprar">
+
+
+   <!-- Menu Tarda-->
     </form>
+
         <form method="POST" action="Validacio.php" id="tarda">
 
         <?php
@@ -65,17 +71,17 @@ include 'header.php';
        let tarda=document.getElementById("tarda");
        let mati=document.getElementById("mati");
 
-       if (hora > 12){
+       if (hora < 12){
 
            mati.style.display = "none";
        }
        else{
 
-        tarda.style.display = "none";
+            tarda.style.display = "none";
         }
 
-    let gallery = document.getElementById('mati');
-    gallery.addEventListener('click', e => {
+
+    mati.addEventListener('click', e => {
 
         if(e.target.classList.contains('afegir')){
             afegirProducte(e.target.parentNode.id);
@@ -93,6 +99,26 @@ include 'header.php';
             }}
 
     });
+
+    tarda.addEventListener('click', e => {
+
+        if(e.target.classList.contains('afegir')){
+            afegirProducte(e.target.parentNode.id);
+            console.log(e.target.parentNode.id);
+        }
+        else if (e.target.classList.contains('treure')){
+            treureProducte(e.target.parentNode.id);
+        }
+        function afegirProducte(idProducte){
+            document.getElementById("i"+idProducte).value++;
+        }
+        function treureProducte(idProducte){
+            if(document.getElementById("i"+idProducte).value>0){
+                document.getElementById("i"+idProducte).value--;
+            }}
+    });
+
+
 </script>
 
 
