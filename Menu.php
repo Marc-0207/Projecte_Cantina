@@ -71,15 +71,14 @@ include 'header.php';
        let tarda=document.getElementById("tarda");
        let mati=document.getElementById("mati");
 
-       if (hora < 12){
+       if (hora >= 13){
 
            mati.style.display = "none";
        }
-       else{
+       else {
 
             tarda.style.display = "none";
         }
-
 
     mati.addEventListener('click', e => {
 
@@ -99,25 +98,6 @@ include 'header.php';
             }}
 
     });
-
-    tarda.addEventListener('click', e => {
-
-        if(e.target.classList.contains('afegir')){
-            afegirProducte(e.target.parentNode.id);
-            console.log(e.target.parentNode.id);
-        }
-        else if (e.target.classList.contains('treure')){
-            treureProducte(e.target.parentNode.id);
-        }
-        function afegirProducte(idProducte){
-            document.getElementById("i"+idProducte).value++;
-        }
-        function treureProducte(idProducte){
-            if(document.getElementById("i"+idProducte).value>0){
-                document.getElementById("i"+idProducte).value--;
-            }}
-    });
-
 
 </script>
 
