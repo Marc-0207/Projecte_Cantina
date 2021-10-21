@@ -97,7 +97,6 @@ include 'header.php';
             if(document.getElementById("i"+idProducte).value>0){
                 document.getElementById("i"+idProducte).value--;
             }}
-
     });
 
 </script>
