@@ -31,6 +31,7 @@ include 'header.php';
                     <input type='text' id=im_$id name =$pro value='0'> 
                     <input type='button' value='-' class='treure'>
                     </div>";
+
         }
         ?>
     
@@ -72,7 +73,7 @@ include 'header.php';
        let mati=document.getElementById("mati");
 
        let mati_o_tarda="";
-       if (hora <= 14){
+       if (hora >= 14){
             mati_o_tarda="tarda";
             mati.style.display = "none";
        }
@@ -92,19 +93,22 @@ include 'header.php';
         else if (e.target.classList.contains('treure')){            
             treureProducte(e.target.parentNode.id);
         }
-        function afegirProducte(idProducte){
-        
+        function afegirProducte(idProducte, $pre){
+
             document.getElementById((mati_o_tarda=="mati" ? "im_" : "it_") + idProducte).value++;
-    
+
         }
 
-        function treureProducte(idParcial){
+        function treureProducte(idParcial, $pre){
 
             let idProducto = (mati_o_tarda=="mati" ? "im_" : "it_") + idParcial;
 
             if(document.getElementById(idProducto).value>0){
                 document.getElementById(idProducto).value--;
-            }}
+            }
+            let preciototal = document.getElementById(idProducto).value * $pre;
+            console.log(preciototal);
+        }
 
     });
 
