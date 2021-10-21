@@ -1,0 +1,29 @@
+[
+    {  
+        "id": "1",
+        "producto":       "Coca-Cola",
+        "precio":      "1.5"
+    },
+    
+    
+    {
+        "id": "2",  
+        "producto":       "Cafe",   
+        "precio":      "1.2" 
+    },
+
+    
+    {
+        "id": "3",  
+        "producto":       "Bocadillo de Bacon",   
+        "precio":      "2.5"
+    },
+
+    
+    {  
+        "id": "4",
+        "producto":       "Fanta",   
+        "precio":      "1.5" 
+    } 
+
+] 
