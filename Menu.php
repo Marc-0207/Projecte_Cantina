@@ -28,14 +28,15 @@ include 'header.php';
             echo "<div id='$id'>
                     <h2> $pro </h2> $pre <br>
                     <input type='button' value='+' class='afegir'>
-                    <input type='text' id=im_$id name =$pro value='0'> 
+                    <input type='text' id=im_$id name =$id value='0'> 
                     <input type='button' value='-' class='treure'>
                     </div>";
         }
-        echo "<input id ='json' type='hidden' value='$menu_json'>";
+        echo "<input id ='json' type='hidden' value='0'/>";
+        echo "<input id ='json' type='hidden' value='$menu_json'/>";
         ?>
         <h2><u>Total productes</u></h2><br>
-        <input type="submit" value="Comprar">
+        <input type="submit" value="Comprar"/>
 
     </form>
     <!-- Menu Tarda-->
@@ -58,9 +59,9 @@ include 'header.php';
                     <input type='button' value='-' class='treure'>
                     </div>";
         }
-
+        echo "<input name='ident' type='hidden' value='1'>";
+        echo "<input id ='json' type='hidden' value='$menu_json'>";
         ?>
-
         <input type="submit" value="Comprar">
     </form>
 <script>

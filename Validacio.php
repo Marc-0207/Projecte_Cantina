@@ -10,15 +10,28 @@
 <body>
 
 <?php
-include 'header.php';
-echo "<h1><u>Vols compara aquests productes?</h1></u>";
 
-foreach($_POST as $pro => $value) {
+$menu = file_get_contents('menuMati.json');
 
-    if ($value!=0) {
-        print "$pro : $value<br>";
+$menu_json = json_decode($menu,true);
+
+$Preu_total = 0;
+foreach ($_POST as $id => $value){
+        if($value!=0){
+            echo "Nombre de producto: ".$menu_json[$id]["producto"].
+                "<br>".
+                "Unitats: ".$value.
+                "<br>".
+                "Preu unitari: ".$menu_json[$id]["precio"]."€".
+                "<br>".
+                "Preu total: ".$menu_json[$id]["precio"]*$value."€".
+                "<br><br>";
+                $Preu_total+=$menu_json[$id]["precio"]*$value;
+        }
     }
-}
+    
+    "<br><br>";
+    echo "Preu Total de los productos: ".$Preu_total."€";
 ?>
 
     <form method="GET" action="Finalitzar.php">
