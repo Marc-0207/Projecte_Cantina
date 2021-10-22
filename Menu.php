@@ -31,10 +31,10 @@ include 'header.php';
                     <input type='text' id=im_$id name =$pro value='0'> 
                     <input type='button' value='-' class='treure'>
                     </div>";
-
         }
+        echo "<input id ='json' type='hidden' value='$menu_json'>";
         ?>
-    
+        <h2><u>Total productes</u></h2><br>
         <input type="submit" value="Comprar">
 
     </form>
@@ -58,6 +58,7 @@ include 'header.php';
                     <input type='button' value='-' class='treure'>
                     </div>";
         }
+
         ?>
 
         <input type="submit" value="Comprar">
@@ -85,32 +86,36 @@ include 'header.php';
 
     document.getElementById(mati_o_tarda).addEventListener('click', e => {
 
-
         if(e.target.classList.contains('afegir')){
             afegirProducte(e.target.parentNode.id);
             console.log(e.target.parentNode.id);
+            ticket(e.target.parentNode.id);
         }
         else if (e.target.classList.contains('treure')){            
             treureProducte(e.target.parentNode.id);
         }
-        function afegirProducte(idProducte, $pre){
+        function afegirProducte(idProducte){
 
             document.getElementById((mati_o_tarda=="mati" ? "im_" : "it_") + idProducte).value++;
 
         }
 
-        function treureProducte(idParcial, $pre){
+        function treureProducte(idParcial){
 
             let idProducto = (mati_o_tarda=="mati" ? "im_" : "it_") + idParcial;
 
             if(document.getElementById(idProducto).value>0){
                 document.getElementById(idProducto).value--;
             }
-            let preciototal = document.getElementById(idProducto).value * $pre;
-            console.log(preciototal);
         }
 
     });
+    function ticket(nomProducte, quantitat, idProducte){
+        nomProducte = ((mati_o_tarda=="mati" ? "im_" : "it_") + idProducte).name
+        quantitat = ((mati_o_tarda=="mati" ? "im_" : "it_") + idProducte).value
+        console.log(nomProducte, quantitat);
+
+    }
 
 </script>
 
