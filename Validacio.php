@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,8 +32,8 @@ foreach ($_POST as $id => $value) {
             "<br><br>";
         $Preu_total += $menu_json[$id]["precio"] * $value;
     }
+    $_SESSION["Nombre_pro"]=$menu_json[$id]["producto"];
 }
-
 "<br><br>";
 echo "Preu Total de los productos: ".$Preu_total."€";
 ?>
@@ -86,19 +89,9 @@ echo "Preu Total de los productos: ".$Preu_total."€";
                         return false;
                     }
                 }
-
-
-
-
-
             </script>
-
-
-
             <?php
             include 'footer.php';
             ?>
-
-
 </body>
 </html>

@@ -1,9 +1,11 @@
 <?php
+session_start();
 include 'header.php';
 ?>
 <p>Aquesta es la pantalla de finalització</p>
 <h1><u><br>Tiquet de compra</u></h1>
 <?php
+print_r($_SESSION["Nombre_pro"]);
 echo "Nom: ". $_GET["nom"]. "<br>";
 echo "Correu: ". $_GET["correu"]. "<br>";
 echo "Telefon: ". $_GET["telefon"]. "<br>";
