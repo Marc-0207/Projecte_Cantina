@@ -31,8 +31,8 @@ foreach ($_POST as $id => $value) {
             "Preu total: " . $menu_json[$id]["precio"] * $value . "€" .
             "<br><br>";
         $Preu_total += $menu_json[$id]["precio"] * $value;
+        $_SESSION["Nombre_pro"]=$menu_json[$id]["producto"];
     }
-    $_SESSION["Nombre_pro"]=$menu_json[$id]["producto"];
 }
 "<br><br>";
 echo "Preu Total de los productos: ".$Preu_total."€";
@@ -68,30 +68,9 @@ echo "Preu Total de los productos: ".$Preu_total."€";
                 </div>
             </div>
 
-
-            <script>
-
-                document.getElementById("telefon"){
-                    phonenumber();
-                }
-                function phonenumber()
-                {
-                    let phoneno = "/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im";
-                    if((document.getElementById("telefon").value.match(phoneno)))
-                    {
-                        alert("Es correcte");
-                        return true;
-                    }
-                    else
-                    {
-                        alert("No es correcte");
-                        console.log("a");
-                        return false;
-                    }
-                }
-            </script>
             <?php
             include 'footer.php';
             ?>
+            <script type="text/javascript" src="Validacio.js"></script>
 </body>
 </html>
