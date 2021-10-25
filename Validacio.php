@@ -15,7 +15,7 @@ session_start();
 
 <?php
 include 'header.php';
-$menu = file_get_contents('menuMati.json');
+$menu = file_get_contents('menuTarda.json');
 
 $menu_json = json_decode($menu,true);
 

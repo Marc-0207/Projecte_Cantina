@@ -1,27 +1,27 @@
 [
     {  
-        "id": "1",
+        "id": "0",
         "producto":       "Plato Combinado",
         "precio":      "8"
     },
     
     
     {
-        "id": "2",  
+        "id": "1",
         "producto":       "Ensaladilla URSS",   
         "precio":      "1.2" 
     },
 
     
     {
-        "id": "3",  
+        "id": "2",
         "producto":       "Macarrones con Tomate",   
         "precio":      "2.5"
     },
 
     
     {  
-        "id": "4",
+        "id": "3",
         "producto":       "Tortilla de Patata SIN CEBOLLA",   
         "precio":      "1.5" 
     } 

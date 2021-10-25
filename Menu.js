@@ -45,6 +45,7 @@ document.getElementById(mati_o_tarda).addEventListener('click', e => {
 });
 function actualitzarTicket(datosMenu){
 
+    console.log("ey");
     let ticket=document.getElementById("ticket");
 
     cantidades = document.getElementsByClassName("cantidades");
@@ -52,7 +53,9 @@ function actualitzarTicket(datosMenu){
     let Preu_total=0;
     for(let index = 0;index < cantidades.length;index++){
         if(index >= 0) {
+            console.log("entro 1r if");
             if (cantidades[index].value != 0) {
+                console.log("entro 2do if");
                 textTicket += " Article: " + datosMenu[cantidades[index].parentNode.id].producto;
                 textTicket += "<br>";
                 textTicket += " Unitats: " + cantidades[index].value;
