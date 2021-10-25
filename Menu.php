@@ -1,3 +1,8 @@
+<?php
+if(isset($_COOKIE["comprovant"])){
+header('Location: Error.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +14,7 @@
 <body>
 
 <?php
-if(!isset($_COOKIE)){
-    echo "error";
-}
+
 include 'header.php';
 ?>
 
