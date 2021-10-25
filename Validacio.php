@@ -38,6 +38,8 @@ session_start();
                 <div id= "compra">
                     <div>
                         <?php
+
+
                             $menu = file_get_contents('menuTarda.json');
 
                             $menu_json = json_decode($menu, true);
