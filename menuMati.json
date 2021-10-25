@@ -1,28 +1,28 @@
 [
     {  
-        "id": "1",
-        "producto":       "Coca-Cola",
+        "id": "0",
+        "producto":       "CocaCola",
         "precio":      "1.5"
     },
     
     
     {
-        "id": "2",  
+        "id": "1",
         "producto":       "Cafe",   
         "precio":      "1.2" 
     },
 
     
     {
-        "id": "3",  
+        "id": "2",
         "producto":       "Bocadillo de Bacon",   
         "precio":      "2.5"
     },
 
     
     {  
-        "id": "4",
-        "producto":       "Fanta",   
+        "id": "3",
+        "producto":       "Fanta",
         "precio":      "1.5" 
     } 
 

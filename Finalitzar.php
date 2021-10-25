@@ -1,4 +1,5 @@
 <?php
+session_start();
 include 'header.php';
 ?>
 <p>Aquesta es la pantalla de finalització</p>
@@ -8,12 +9,9 @@ echo "Nom: ". $_GET["nom"]. "<br>";
 echo "Correu: ". $_GET["correu"]. "<br>";
 echo "Telefon: ". $_GET["telefon"]. "<br>";
 
-foreach($_POST as $pro => $value) {
-
-    if ($value!=0) {
-        print "$pro : $value";
-    }
-}
+$cookie_name="comprovant";
+$cookie_value="feta";
+setcookie($cookie_name,$cookie_value, time() + (86400 * 30), "/");
 ?>
 
 <form action="./Finalitzar.php">

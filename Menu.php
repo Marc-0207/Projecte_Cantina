@@ -1,3 +1,8 @@
+<?php
+if(!isset($_COOKIE["comprovant"])){
+header('Location: Error.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +14,7 @@
 <body>
 
 <?php
+
 include 'header.php';
 ?>
 
@@ -28,7 +34,7 @@ include 'header.php';
         echo "<div id='$id'>
                     <h2> $pro </h2> $pre <br>
                     <input type='button' value='+' class='afegir'>
-                    <input type='text' id=im_$id name =$pro class='cantidades' value='0'> 
+                    <input type='text' id=im_$id name =$id class='cantidades' value='0'> 
                     <input type='button' value='-' class='treure'>
                     </div>";
     }
@@ -57,7 +63,7 @@ include 'header.php';
         echo "<div id='$id'>
                     <h2> $pro </h2> $pre <br>
                     <input type='button' value='+' class='afegir'>
-                    <input type='text' id=it_$id name =$pro class='cantidades' value='0'> 
+                    <input type='text' id=it_$id name =$id class='cantidades' value='0'> 
                     <input type='button' value='-' class='treure'>
                     </div>";
     }
@@ -69,84 +75,6 @@ include 'header.php';
     </div>
     <input type="submit" value="Comprar">
 </form>
-<script>
-
-    const dia = new Date();
-    let hora = dia.getHours();
-
-    console.log(hora);
-
-    let tarda=document.getElementById("tarda");
-    let mati=document.getElementById("mati");
-
-    let mati_o_tarda="";
-    if (hora >= 14){
-        mati_o_tarda="tarda";
-        mati.style.display = "none";
-    }
-    else {
-        mati_o_tarda="mati";
-        tarda.style.display = "none";
-    }
-
-
-    document.getElementById(mati_o_tarda).addEventListener('click', e => {
-
-        if(e.target.classList.contains('afegir')){
-            afegirProducte(e.target.parentNode.id);
-            //console.log(e.target.parentNode.id);
-        }
-        else if (e.target.classList.contains('treure')){
-            treureProducte(e.target.parentNode.id);
-        }
-        function afegirProducte(idProducte){
-
-            document.getElementById((mati_o_tarda=="mati" ? "im_" : "it_") + idProducte).value++;
-            actualitzarTicket(menuList);
-        }
-
-        function treureProducte(idParcial){
-
-            let idProducto = (mati_o_tarda=="mati" ? "im_" : "it_") + idParcial;
-
-            if(document.getElementById(idProducto).value>0){
-                document.getElementById(idProducto).value--;
-                actualitzarTicket(menuList);
-            }
-        }
-
-    });
-    function actualitzarTicket(datosMenu){
-
-        let ticket=document.getElementById("ticket");
-
-        cantidades = document.getElementsByClassName("cantidades");
-        let textTicket="";
-        let Preu_total=0;
-        for(let index = 0;index < cantidades.length;index++){
-            console.log(cantidades.length);
-            if(cantidades[index].value!=0){
-                textTicket += " Article: " + datosMenu[cantidades[index-1].parentNode.id].producto;
-                textTicket += "<br>";
-                textTicket += " Unitats: " + cantidades[index].value;
-                textTicket += "<br>";
-                textTicket +="   Preu unitari: " + datosMenu[cantidades[index-1].parentNode.id].precio +"€";
-                textTicket += "<br>";
-                textTicket +="   Preu total:   " + datosMenu[cantidades[index-1].parentNode.id].precio * cantidades[index].value +"€";
-                Preu_total +=  datosMenu[cantidades[index].parentNode.id].precio * cantidades[index].value;
-                textTicket += "<br><br>";
-            }
-        }
-        "<br><br>";
-        textTicket+="<h2>   Preu total de todos los productos:   " +  Preu_total + "€</h2>";
-
-        ticket.innerHTML = textTicket;
-    }
-    menuList = JSON.parse(document.getElementById("json").value);
-
-</script>
-
-
-
+<script type="text/javascript" src="Menu.js"></script>
 </body>
 </html>
