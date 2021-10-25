@@ -125,14 +125,14 @@ include 'header.php';
         let Preu_total=0;
         for(let index = 0;index < cantidades.length;index++){
             console.log(cantidades.length);
-            if(cantidades[index].value!=0){
+            if(cantidades[index].value != 1){
                 textTicket += " Article: " + datosMenu[cantidades[index-1].parentNode.id].producto;
                 textTicket += "<br>";
-                textTicket += " Unitats: " + cantidades[index].value;
+                textTicket += " Unitats: " + cantidades[index-1].value;
                 textTicket += "<br>";
                 textTicket +="   Preu unitari: " + datosMenu[cantidades[index-1].parentNode.id].precio +"€";
                 textTicket += "<br>";
-                textTicket +="   Preu total:   " + datosMenu[cantidades[index-1].parentNode.id].precio * cantidades[index].value +"€";
+                textTicket +="   Preu total:   " + datosMenu[cantidades[index-1].parentNode.id].precio * cantidades[index-1].value +"€";
                 Preu_total +=  datosMenu[cantidades[index].parentNode.id].precio * cantidades[index].value;
                 textTicket += "<br><br>";
             }
