@@ -10,7 +10,7 @@
 <body>
 
 <?php
-
+include 'header.php';
 $menu = file_get_contents('menuMati.json');
 
 $menu_json = json_decode($menu,true);
@@ -67,21 +67,18 @@ foreach ($_POST as $id => $value){
 
 <script>
 
-    document.getElementById("telefon"){
+    document.getElementById("telefon")
+    {
         phonenumber();
     }
-    function phonenumber()
-    {
+    function phonenumber() {
         let phoneno = "/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im";
-        if((document.getElementById("telefon").value.match(phoneno))
-        {
+        if((document.getElementById("telefon").value.match(phoneno))){
             alert("Es correcte");
             return true;
         }
-        else
-        {
+        else {
             alert("No es correcte");
-            console.log("a");
             return false;
         }
     }
