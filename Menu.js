@@ -15,7 +15,8 @@ else {
     mati_o_tarda="mati";
     tarda.style.display = "none";
 }
-
+menuList = JSON.parse(document.getElementById("json_"+mati_o_tarda).value);
+console.log(menuList);
 
 document.getElementById(mati_o_tarda).addEventListener('click', e => {
 
@@ -38,6 +39,7 @@ document.getElementById(mati_o_tarda).addEventListener('click', e => {
 
         if(document.getElementById(idProducto).value>0){
             document.getElementById(idProducto).value--;
+            console.log(menuList);
             actualitzarTicket(menuList);
         }
     }
@@ -53,9 +55,8 @@ function actualitzarTicket(datosMenu){
     let Preu_total=0;
     for(let index = 0;index < cantidades.length;index++){
         if(index >= 0) {
-            console.log("entro 1r if");
             if (cantidades[index].value != 0) {
-                console.log("entro 2do if");
+                console.log(cantidades[index].parentNode.id);
                 textTicket += " Article: " + datosMenu[cantidades[index].parentNode.id].producto;
                 textTicket += "<br>";
                 textTicket += " Unitats: " + cantidades[index].value;
@@ -73,7 +74,7 @@ function actualitzarTicket(datosMenu){
 
     ticket.innerHTML = textTicket;
 }
-menuList = JSON.parse(document.getElementById("json").value);
+
 
 /*    let str =JSON.stringify([]);
 document.getElementById("json").value = str;*/

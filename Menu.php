@@ -40,15 +40,14 @@ if(!isset($_COOKIE["comprovant"])){
                         <input type='button' value='-' class='treure'>
                         </div>";
         }
-        echo "<input id ='json' name='menu' type='hidden' value='$menu_json'>";
+        echo "<input id ='json_mati' name='menu' type='hidden' value='$menu_json'>";
         ?>
 
-        <div id="ticket">
 
-        </div>
         <input type="submit" value="Comprar">
 
     </form>
+
     <!-- Menu Tarda-->
 
     <form method="POST" action="Validacio.php" id="tarda">
@@ -69,16 +68,19 @@ if(!isset($_COOKIE["comprovant"])){
                         <input type='button' value='-' class='treure'>
                         </div>";
         }
-        echo "<input id ='json' type='hidden' value='$menu_json'>";
+        echo "<input id ='json_tarda' type='hidden' name='menu' value='$menu_json'>";
         ?>
 
-        <div id="ticket">
 
-        </div>
         <input id="c" type="hidden" value="1">;
         <input type="submit" value="Comprar">
     </form>
     <script type="text/javascript" src="Menu.js"></script>
+
+    <div id="ticket">
+
+    </div>
+
 
     <?php
     include 'footer.php';
