@@ -7,7 +7,7 @@ let tarda=document.getElementById("tarda");
 let mati=document.getElementById("mati");
 
 let mati_o_tarda="";
-if (hora <= 14){
+if (hora >= 14){
     mati_o_tarda="tarda";
     mati.style.display = "none";
 }
