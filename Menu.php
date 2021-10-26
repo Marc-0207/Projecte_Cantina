@@ -1,11 +1,18 @@
-
+<?php
+if(!isset($_COOKIE["comprovant"])){
+    header('Location: Error.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ClasesCSS.css">
+    <link rel="stylesheet" href="normalize.css">
     <title>Document</title>
+
 </head>
 <body>
     <?php
@@ -72,12 +79,6 @@
         <input type="submit" value="Comprar">
     </form>
     <script type="text/javascript" src="Menu.js"></script>
-
-
-    //if(!isset($_COOKIE["comprovant"])){
-    //    header('Location: Error.php');
-    //}
-
 
     <?php
     include 'footer.php';
