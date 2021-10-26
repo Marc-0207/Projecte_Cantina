@@ -44,13 +44,18 @@ session_start();
 
                         <?php
 
-                            $menu = file_get_contents('menuTarda.json');
+                            //$menu = file_get_contents('menuTarda.json');
 
-                            $menu_json = json_decode($menu, true);
+                            //$menu_json = json_decode($menu, true);
 
                             $Preu_total = 0;
+                            
+                            $menu_json = json_decode($_POST["menu"], true);
+
+                            
+
                             foreach ($_POST as $id => $value) {
-                                if ($value != 0) {
+                                if (($value != 0) && ($id != "menu")) {
                                     echo "Nombre de producto: " . $menu_json[$id]["producto"] .
                                         "<br>" .
                                         "Unitats: " . $value .

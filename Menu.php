@@ -33,7 +33,7 @@
                         <input type='button' value='-' class='treure'>
                         </div>";
         }
-        echo "<input id ='json' type='hidden' value='$menu_json'>";
+        echo "<input id ='json' name='menu' type='hidden' value='$menu_json'>";
         ?>
 
         <div id="ticket">
@@ -68,6 +68,7 @@
         <div id="ticket">
 
         </div>
+        <input id="c" type="hidden" value="1">;
         <input type="submit" value="Comprar">
     </form>
     <script type="text/javascript" src="Menu.js"></script>
