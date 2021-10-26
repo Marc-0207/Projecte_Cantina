@@ -1,18 +1,32 @@
+document.getElementById("seguent").addEventListener("click", function(e) {
 
-document.getElementById("telefon");
-    phonenumber();
-function phonenumber()
-{
-    let phoneno = "/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im";
-    if((document.getElementById("telefon").value.match(phoneno)))
-    {
-        alert("Es correcte");
-        return true;
+
+    let nom = document.getElementById("nom");
+    let correu = document.getElementById("correu").value;
+
+    let telefon = document.getElementById("telefon").value;
+
+
+    if (telefon == "") {
+        e.preventDefault();
+    } else if (!(/^\d{9}$/.test(telefon))) {
+        e.preventDefault();
+
     }
-    else
-    {
-        alert("No es correcte");
-        console.log("a");
-        return false;
+
+    if (correu == "") {
+        e.preventDefault();
+        alert("NO");
+    } else if (!(/^([a-zA-Z0-9._-]+)@inspedralbes.cat$/.exec(correu))) {
+        e.preventDefault();
+        alert("No");
     }
-}
+
+});
+
+
+
+
+
+
+//if (!(/^([a-zA-Z0-9._-]+)@inspedralbes.cat$/.exec(document.getElementById("correo").value)))
