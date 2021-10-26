@@ -1,4 +1,4 @@
-const dia = new Date();
+ const dia = new Date();
 let hora = dia.getHours();
 
 //console.log(hora);
