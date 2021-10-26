@@ -16,13 +16,13 @@ session_start();
     include 'header.php';
     ?>
 
-        <form method="GET" action="Finalitzar.php">
+        <form method="GET" action="./Finalitzar.php">
             <div id="contenidor_val">
                 <div id="validacio">
                     <table>
                         <tr>
                             <td><label>Nom: &emsp;&emsp;&emsp;</label></td>
-                            <td><input type="text" name="nom" required style="margin-bottom: 5px" size="40"></td>
+                            <td><input type="text" name="nom" id="nom" required style="margin-bottom: 5px" size="40"></td>
                         </tr>
                         <tr>
                             <td><label>Telefon: </label></td>
@@ -30,15 +30,19 @@ session_start();
                         </tr>
                         <tr>
                             <td><label>Correu electronic: </label></td>
-                            <td><input type="text" name="correu"></td>
+                            <td><input type="text" name="correu" id="correu"></td>
                         </tr>
                     </table>
+
+                    <input type="submit" id="seguent" value="Seguent"/>
+                    <a href="./Menu.php"><button>Tornar</button></a>
                 </div>
 
                 <div id= "compra">
                     <div>
-                        <?php
 
+
+                        <?php
 
                             $menu = file_get_contents('menuTarda.json');
 
@@ -63,12 +67,7 @@ session_start();
                             echo "Preu Total de los productos: " . $Preu_total . "€";
 
                         ?>
-                        <div id="finalitzar">
-                            <form action="./Finalitzar.php">
-                                <input type="submit" value="Següent"/>
-                            </form>
-                            <a href="./Menu.php"><button>Tornar</button></a>
-                        </div>
+
                     </div>
                 </div>
             </div>
