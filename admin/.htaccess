@@ -1,12 +1,4 @@
-<Directory "/Projecte_Cantina/public_html/admin">
-	AllowOverride All
-	Require all granted
-</Directory>
-
-<Location "/Projecte_Cantina/public_html/admin">
-	Options +IncludesNoExec -ExecCGT
-</Location>
-
 AuthType Basic
+AuthUserFile "C:\Users\NitroPC\Documents\GitHub\Projecte_Cantina\admin\.htpasswd"
 AuthName "pedralbes"
-Require valid-user
+Require user pedralbes
