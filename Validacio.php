@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,11 +65,32 @@ session_start();
                                         "Preu total: " . $menu_json[$id]["precio"] * $value . "€" .
                                         "<br><br>";
                                     $Preu_total += $menu_json[$id]["precio"] * $value;
-                                    $_SESSION["Nombre_pro"] = $menu_json[$id]["producto"];
+                                  
                                 }
                             }
                             "<br><br>";
                             echo "Preu Total de los productos: " . $Preu_total . "€";
+
+
+                            $comanda="";
+                            $Preu_total = 0;
+                            foreach ($_POST as $id => $value) {
+                                if (($value != 0) && ($id != "menu")) {
+                                    $comanda.="Nombre de producto: " . $menu_json[$id]["producto"] .
+                                        "---" .
+                                        "Unitats: " . $value .
+                                        "----" .
+                                        "Preu unitari: " . $menu_json[$id]["precio"] . "€" .
+                                        "--" .
+                                        "Preu total: " . $menu_json[$id]["precio"] * $value . "€" .
+                                        "----";
+                                        $Preu_total += $menu_json[$id]["precio"] * $value;
+                                  
+                                }
+                            }
+
+                            session_start();
+                            $_SESSION["ticket"] = $comanda;
 
                         ?>
 
