@@ -39,6 +39,8 @@
     #validacio {
         background-color: cadetblue;
         padding-right: 200px;
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -48,7 +50,7 @@
         margin-left: 100px;
         padding: 250px;
         padding-top: 45px;
-
+        display: flex;
     }
 
     #menuIndex{
