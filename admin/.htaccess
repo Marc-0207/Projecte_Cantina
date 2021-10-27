@@ -1,0 +1,12 @@
+<Directory "/Projecte_Cantina/public_html/admin">
+	AllowOverride All
+	Require all granted
+</Directory>
+
+<Location "/Projecte_Cantina/public_html/admin">
+	Options +IncludesNoExec -ExecCGT
+</Location>
+
+AuthType Basic
+AuthName "pedralbes"
+Require valid-user
