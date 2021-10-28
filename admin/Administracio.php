@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+include '../header.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,11 +16,11 @@ include 'header.php';
 <p>Aquesta es la pantalla d'administracio</p>
 
 <div>
-    <a href="/index.php"><button>Tornar</button></a>
+    <a href="../index.php"><button>Tornar</button></a>
 </div>
 
 <?php
-include 'footer.php';
+include '../footer.php';
 ?>
 </body>
 </html>

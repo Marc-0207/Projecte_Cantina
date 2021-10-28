@@ -1,4 +1,4 @@
 AuthType Basic
-AuthUserFile "/home/a18kevhoylor/web/cantina7.alumnes.inspedralbes.cat/public_html/admin/.htpasswd"
+AuthUserFile "C:\Users\Mati\Desktop\2n DAW_MarcCastro\Github\Projecte_Cantina\admin\.htpasswd"
 AuthName "pedralbes"
 Require user pedralbes
