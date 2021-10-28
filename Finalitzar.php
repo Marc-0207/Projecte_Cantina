@@ -29,6 +29,41 @@ include 'header.php';
     echo "Telefon: ". $_GET["telefon"]. "<br>";
     echo $_SESSION["ticket"];
 
+
+    $hora = date("H");
+    $min = date("i");
+
+    if(($hora < 11) || ($hora == 11 && $min <= 30)) {
+        $nomFitxer = date("m.d.y") . "_mati.txt";
+    } else {
+        $nomFitxer = date("m.d.y") . "_tarda.txt";
+    }
+
+    $fitxer = fopen($nomFitxer,"a+") or die ("ERROR al crear el fitxer");
+
+    $texto = <<<_END
+        \n
+        USUARI
+        ----------------
+        Nom : $_GET[nom]
+        Telefon: $_GET[telefon]
+        Correu: $_GET[correu]
+    
+        PEDIDO
+        ----------------
+    
+        $_SESSION[ticket]
+_END;
+
+    fwrite($fitxer,$texto);
+    fclose($fitxer);
+    echo "informacio escrita al fitxer";
+
+
+    session_destroy();
+
+
+
 ?>
 
 <form action="./index.php">
