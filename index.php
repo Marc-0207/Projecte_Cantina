@@ -11,6 +11,8 @@
 
 </head>
 <body>
+<a href="./admin/Administracio.php"><button>Administracio</button></a>
+<a href="./Menu.php"><button>Menu</button></a>
 <div id="menuIndex">
 </div>
 <div id="prinIndex">
