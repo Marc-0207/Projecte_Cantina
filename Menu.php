@@ -1,5 +1,5 @@
 <?php
-if(!isset($_COOKIE["comprovant"])){
+if(isset($_COOKIE["comprovant"])){
     header('Location: Error.php');
 }
 ?>
