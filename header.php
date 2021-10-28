@@ -1,4 +1,3 @@
-
 <body>
     <div id= "header">
         <img id="logimg" src="/img/logo.png">

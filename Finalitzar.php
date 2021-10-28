@@ -20,7 +20,7 @@ include 'header.php';
 
     $cookie_name="comprovant";
     $cookie_value="feta";
-    //setcookie($cookie_name,$cookie_value, time() + (86400 * 30), "/");
+    setcookie($cookie_name,$cookie_value, time() + (86400 * 30), "/");
 
     session_start();
   

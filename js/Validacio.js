@@ -23,10 +23,3 @@ document.getElementById("seguent").addEventListener("click", function(e) {
     }
 
 });
-
-
-
-
-
-
-//if (!(/^([a-zA-Z0-9._-]+)@inspedralbes.cat$/.exec(document.getElementById("correo").value)))

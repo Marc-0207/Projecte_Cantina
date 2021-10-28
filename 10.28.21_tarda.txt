@@ -1,0 +1,34 @@
+        
+
+        USUARI
+        ----------------
+        Nom : Marc
+        Telefon: 123456789
+        Correu: a17marlamver@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Ensaladilla URSS---Unitats: 2----Preu unitari: 1.2€--Preu total: 2.4€----        
+
+        USUARI
+        ----------------
+        Nom : Marc
+        Telefon: 123456789
+        Correu: a17marlamver@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Macarrones con Tomate---Unitats: 3----Preu unitari: 2.5€--Preu total: 7.5€----        
+
+        USUARI
+        ----------------
+        Nom : Marc
+        Telefon: 123456123
+        Correu: a17marlamver@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Fanta---Unitats: 2----Preu unitari: 1.5€--Preu total: 3€----

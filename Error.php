@@ -13,7 +13,8 @@ include 'header.php';
 
     </head>
     <body>
-        <p>Aquesta es la pantalla d'error</p>
+    <h1>Error, ja has fet una comanda avuí, has d'esperar fins demà</h1>
+    <a href="./index.php"><button>Tornar</button></a>
     </body>
 
 <?php

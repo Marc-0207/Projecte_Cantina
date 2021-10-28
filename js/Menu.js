@@ -81,7 +81,3 @@ function actualitzarTicket(datosMenu){
 
     ticket.innerHTML = textTicket;
 }
-
-
-/*    let str =JSON.stringify([]);
-document.getElementById("json").value = str;*/

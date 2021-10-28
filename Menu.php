@@ -1,5 +1,5 @@
 <?php
-if(isset($_COOKIE["comprovant"])){
+if(!isset($_COOKIE["comprovant"])){
     header('Location: Error.php');
 }
 ?>
@@ -72,7 +72,7 @@ if(isset($_COOKIE["comprovant"])){
         ?>
 
 
-        <input id="c" type="hidden" value="1">;
+        <input id="c" type="hidden" value="1">
         <input type="submit" value="Comprar">
     </form>
     <script type="text/javascript" src="/js/Menu.js"></script>
@@ -81,6 +81,7 @@ if(isset($_COOKIE["comprovant"])){
 
     </div>
 
+    <a href="./index.php"><button>Tornar</button></a>
 
     <?php
     include 'footer.php';

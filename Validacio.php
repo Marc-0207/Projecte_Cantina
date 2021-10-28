@@ -35,7 +35,6 @@
                     </table>
 
                     <input type="submit" id="seguent" value="Seguent"/>
-                    <a href="./Menu.php"><button>Tornar</button></a>
                 </div>
 
                 <div id= "compra">
@@ -95,8 +94,9 @@
                 </div>
             </div>
         </form>
-
+         <a href="./Menu.php"><button>Tornar</button></a>
             <script type="text/javascript" src="/js/Validacio.js"></script>
+
 
             <?php
             include 'footer.php';
