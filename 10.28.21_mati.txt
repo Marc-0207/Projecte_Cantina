@@ -1,0 +1,12 @@
+        
+
+        USUARI
+        ----------------
+        Nom : dfd
+        Telefon: 789456123
+        Correu: miputoculo@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Cafe---Unitats: 4----Preu unitari: 1.2€--Preu total: 4.8€----
