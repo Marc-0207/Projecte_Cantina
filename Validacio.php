@@ -44,9 +44,6 @@
 
                         <?php
 
-                            //$menu = file_get_contents('menuTarda.json');
-
-                            //$menu_json = json_decode($menu, true);
 
                             $Preu_total = 0;
                             

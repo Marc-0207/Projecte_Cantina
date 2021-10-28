@@ -1,5 +1,6 @@
  const dia = new Date();
 let hora = dia.getHours();
+let minutos = dia.getMinutes();
 
 //console.log(hora);
 
@@ -7,9 +8,15 @@ let tarda=document.getElementById("tarda");
 let mati=document.getElementById("mati");
 
 let mati_o_tarda="";
-if (hora >= 14){
-    mati_o_tarda="tarda";
-    mati.style.display = "none";
+if (hora >= 11){
+    if(minutos>=30){
+        mati_o_tarda="tarda";
+        mati.style.display = "none";
+    }
+    else{
+        mati_o_tarda="mati";
+        tarda.style.display = "none";
+    }
 }
 else {
     mati_o_tarda="mati";

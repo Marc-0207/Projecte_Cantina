@@ -31,7 +31,7 @@ include 'header.php';
 
 ?>
 
-<form action="./Finalitzar.php">
+<form action="./index.php">
     <input type="submit" value="Acabar"/>
 </form>
 </body>
