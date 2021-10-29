@@ -13,8 +13,11 @@ include 'header.php';
 
     </head>
     <body>
-    <h1>Error, ja has fet una comanda avuí, has d'esperar fins demà</h1>
-    <a href="./index.php"><button>Tornar</button></a>
+
+
+    <div class='final'>
+        <h1>Error, ja has fet una comanda avuí, has d'esperar fins demà</h1>
+    </div>
     </body>
 
 <?php
