@@ -1,5 +1,5 @@
 <body>
     <div id= "footer">
-        <h1>Institut Pedralbes</h1>
+        <p>Copyright © 2020 Institut Pedralbes. Pàgina web desenvolupada per Cantina 7</p>
     </div>
 </body>
