@@ -2,28 +2,46 @@
     {  
         "id": "0",
         "producto":       "CocaCola",
-        "precio":      "1.5"
+        "precio":      "1.5",
+        "img": "/cocacola.jpg"
     },
     
     
     {
         "id": "1",
         "producto":       "Cafe",   
-        "precio":      "1.2" 
+        "precio":      "1.2",
+        "img": "/cafe.jpg"
     },
 
     
     {
         "id": "2",
         "producto":       "Bocadillo de Bacon",   
-        "precio":      "2.5"
+        "precio":      "2.5",
+        "img": "/bacon.jpg"
     },
 
     
     {  
         "id": "3",
         "producto":       "Fanta",
-        "precio":      "1.5" 
-    } 
+        "precio":      "1.5",
+        "img": "/fanta.jpg"
+    },
 
-] 
+    {
+        "id": "4",
+        "producto":       "Croissant",
+        "precio":      "2",
+        "img": "/cruasan.jpg"
+    },
+
+
+    {
+        "id": "5",
+        "producto":       "Panini",
+        "precio":      "1.5",
+        "img": "/panini.jpg"
+    }
+]
