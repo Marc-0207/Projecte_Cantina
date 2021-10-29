@@ -7,47 +7,25 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <?php
     include 'header.php';
+
     ?>
 
 </head>
-<body>
-<a href="./admin/Administracio.php"><button>Administracio</button></a>
-<a href="./Menu.php"><button>Menu</button></a>
-<div id="menuIndex">
-</div>
+<body style="background-color: #C4C4C4">
 <div id="prinIndex">
-
-    <div id="latdIndex">
-        <div class="imgLat">
-        
-        </div>
-        <div class="imgLat">
-        
-        </div>
-        <div class="imgLat">
-
-        </div>
-      
+    <div class="slider">
+        <ul>
+            <li>
+                <img class=logo src="./img/cafe.jpg" alt="Logo pp" width="600px">
+            </li>
+            <li>
+                <img class=logo src="./img/pan.jpg" alt="Logo pp" width="600px">
+            </li>
+            <li>
+                <img class=logo src="./img/cruasan.jpg" alt="L ogo pp" width="600px">
+            </li>
+        </ul>
     </div>
-    <div id="cenIndex">
-        
-        
-    </div>
-
-    <div id="latiIndex">
-        <div class="imgLat">
-            
-        </div>
-        <div class="imgLat">
-        
-        </div>
-        <div class="imgLat">
-
-        </div>
-
-    </div>
-
-
 </div>
 
 <?php
