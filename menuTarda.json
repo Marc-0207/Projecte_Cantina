@@ -2,28 +2,49 @@
     {  
         "id": "0",
         "producto":       "Plato Combinado",
-        "precio":      "8"
+        "precio":      "8",
+        "img": "/combinado.jpg"
     },
     
     
     {
         "id": "1",
-        "producto":       "Ensaladilla URSS",   
-        "precio":      "1.2" 
+        "producto":       "Ensaladilla Rusa",
+        "precio":      "1.2",
+        "img": "/rusa.jpg"
     },
 
     
     {
         "id": "2",
         "producto":       "Macarrones con Tomate",   
-        "precio":      "2.5"
+        "precio":      "2.5",
+        "img": "/macarrones.jpg"
     },
 
     
     {  
         "id": "3",
-        "producto":       "Tortilla de Patata SIN CEBOLLA",   
-        "precio":      "1.5" 
-    } 
+        "producto":       "Bistec",
+        "precio":      "12.5",
+        "img": "/bistec.jpg"
+    },
+
+    {
+        "id": "4",
+        "producto":       "Tortilla de patatas",
+        "precio":      "5",
+        "img": "/tortilla.jpg"
+    },
+
+    {
+        "id": "5",
+        "producto":       "Cerveza",
+        "precio":      "1.5",
+        "img": "/estrella.jpg"
+    }
+
+
+
 
 ] 
