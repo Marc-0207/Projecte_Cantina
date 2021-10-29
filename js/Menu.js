@@ -8,7 +8,7 @@ let tarda=document.getElementById("tarda");
 let mati=document.getElementById("mati");
 
 let mati_o_tarda="";
-if((hora > 11) || (hora == 11 && minutos <= 30)){
+if((hora < 11) || (hora == 11 && minutos <= 30)){
     mati_o_tarda = "mati";
     tarda.style.display = "none";
 }
