@@ -19,22 +19,20 @@
         <form method="GET" action="./Finalitzar.php">
             <div id="contenidor_val">
                 <div id="validacio">
-                    <table>
-                        <tr>
-                            <td><label>Nom: &emsp;&emsp;&emsp;</label></td>
-                            <td><input type="text" name="nom" id="nom" required style="margin-bottom: 5px" size="40"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Telefon: </label></td>
-                            <td><input type="text" name="telefon" id="telefon" ></td>
-                        </tr>
-                        <tr>
-                            <td><label>Correu electronic: </label></td>
-                            <td><input type="text" name="correu" id="correu"></td>
-                        </tr>
-                    </table>
 
-                    <input type="submit" id="seguent" value="Seguent"/>
+                            <label style="text-align: center"> Nom:&emsp;</label>
+                            <input type="text" name="nom" class="dades" required style="margin-bottom: 5px" size="40">
+                     <br>
+                            <label style="text-align: center">Telefon: </label>
+                            <input type="text" name="telefon"  class="dades">
+                      <br>
+                           <label style="text-align: center">Correu electronic: </label>
+                           <input type="text" name="correu"  class="dades">
+                      <br>
+                    <div id="but_form">
+                        <input type="submit" id="seguent" value="Seguent"/>
+                        <a href="./Menu.php"><button>Tornar</button></a>
+                    </div>
                 </div>
 
                 <div id= "compra">
@@ -81,7 +79,6 @@
                                         "Preu total: " . $menu_json[$id]["precio"] * $value . "€" .
                                         "----";
                                         $Preu_total += $menu_json[$id]["precio"] * $value;
-                                  
                                 }
                             }
 
@@ -94,7 +91,7 @@
                 </div>
             </div>
         </form>
-         <a href="./Menu.php"><button>Tornar</button></a>
+
             <script type="text/javascript" src="/js/Validacio.js"></script>
 
 
