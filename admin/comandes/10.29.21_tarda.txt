@@ -42,4 +42,510 @@
         PEDIDO
         ----------------
     
-        Nombre de producto: Plato Combinado---Unitats: 4----Preu unitari: 8€--Preu total: 32€----
+        Nombre de producto: Plato Combinado---Unitats: 4----Preu unitari: 8€--Preu total: 32€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 1----Preu unitari: 8€--Preu total: 8€----Nombre de producto: Ensaladilla URSS---Unitats: 1----Preu unitari: 1.2€--Preu total: 1.2€----Nombre de producto: Macarrones con Tomate---Unitats: 7----Preu unitari: 2.5€--Preu total: 17.5€----Nombre de producto: Bistec---Unitats: 2----Preu unitari: 12.5€--Preu total: 25€----Nombre de producto: Tortilla de patatas---Unitats: 2----Preu unitari: 5€--Preu total: 10€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 1----Preu unitari: 8€--Preu total: 8€----Nombre de producto: Ensaladilla URSS---Unitats: 3----Preu unitari: 1.2€--Preu total: 3.6€----Nombre de producto: Macarrones con Tomate---Unitats: 7----Preu unitari: 2.5€--Preu total: 17.5€----Nombre de producto: Bistec---Unitats: 2----Preu unitari: 12.5€--Preu total: 25€----Nombre de producto: Tortilla de patatas---Unitats: 2----Preu unitari: 5€--Preu total: 10€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 2----Preu unitari: 8€--Preu total: 16€----Nombre de producto: Ensaladilla URSS---Unitats: 4----Preu unitari: 1.2€--Preu total: 4.8€----Nombre de producto: Macarrones con Tomate---Unitats: 7----Preu unitari: 2.5€--Preu total: 17.5€----Nombre de producto: Bistec---Unitats: 2----Preu unitari: 12.5€--Preu total: 25€----Nombre de producto: Tortilla de patatas---Unitats: 4----Preu unitari: 5€--Preu total: 20€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 2----Preu unitari: 8€--Preu total: 16€----Nombre de producto: Ensaladilla URSS---Unitats: 5----Preu unitari: 1.2€--Preu total: 6€----Nombre de producto: Macarrones con Tomate---Unitats: 7----Preu unitari: 2.5€--Preu total: 17.5€----Nombre de producto: Bistec---Unitats: 2----Preu unitari: 12.5€--Preu total: 25€----Nombre de producto: Tortilla de patatas---Unitats: 4----Preu unitari: 5€--Preu total: 20€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 2----Preu unitari: 8€--Preu total: 16€----Nombre de producto: Ensaladilla URSS---Unitats: 5----Preu unitari: 1.2€--Preu total: 6€----Nombre de producto: Macarrones con Tomate---Unitats: 7----Preu unitari: 2.5€--Preu total: 17.5€----Nombre de producto: Bistec---Unitats: 2----Preu unitari: 12.5€--Preu total: 25€----Nombre de producto: Tortilla de patatas---Unitats: 4----Preu unitari: 5€--Preu total: 20€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 6----Preu unitari: 8€--Preu total: 48€----Nombre de producto: Ensaladilla URSS---Unitats: 5----Preu unitari: 1.2€--Preu total: 6€----Nombre de producto: Macarrones con Tomate---Unitats: 7----Preu unitari: 2.5€--Preu total: 17.5€----Nombre de producto: Bistec---Unitats: 2----Preu unitari: 12.5€--Preu total: 25€----Nombre de producto: Tortilla de patatas---Unitats: 4----Preu unitari: 5€--Preu total: 20€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 7----Preu unitari: 8€--Preu total: 56€----Nombre de producto: Ensaladilla URSS---Unitats: 5----Preu unitari: 1.2€--Preu total: 6€----Nombre de producto: Macarrones con Tomate---Unitats: 7----Preu unitari: 2.5€--Preu total: 17.5€----Nombre de producto: Bistec---Unitats: 2----Preu unitari: 12.5€--Preu total: 25€----Nombre de producto: Tortilla de patatas---Unitats: 4----Preu unitari: 5€--Preu total: 20€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 4----Preu unitari: 8€--Preu total: 32€----Nombre de producto: Tortilla de patatas---Unitats: 2----Preu unitari: 5€--Preu total: 10€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 5----Preu unitari: 8€--Preu total: 40€----Nombre de producto: Tortilla de patatas---Unitats: 2----Preu unitari: 5€--Preu total: 10€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Ensaladilla URSS---Unitats: 3----Preu unitari: 1.2€--Preu total: 3.6€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 4----Preu unitari: 8€--Preu total: 32€----Nombre de producto: Ensaladilla URSS---Unitats: 3----Preu unitari: 1.2€--Preu total: 3.6€----        
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : 
+        Telefon: 
+        Correu: 
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+                
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Ensaladilla URSS---Unitats: 5----Preu unitari: 1.2€--Preu total: 6€----        
+
+        USUARI
+        ----------------
+        Nom : dwasd
+        Telefon: 789456123
+        Correu: a@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: CocaCola---Unitats: 4----Preu unitari: 1.5€--Preu total: 6€----Nombre de producto: Cafe---Unitats: 4----Preu unitari: 1.2€--Preu total: 4.8€----Nombre de producto: Bocadillo de Bacon---Unitats: 3----Preu unitari: 2.5€--Preu total: 7.5€----Nombre de producto: Fanta---Unitats: 3----Preu unitari: 1.5€--Preu total: 4.5€----Nombre de producto: Croissant---Unitats: 3----Preu unitari: 2€--Preu total: 6€----Nombre de producto: Panini---Unitats: 3----Preu unitari: 1.5€--Preu total: 4.5€----
