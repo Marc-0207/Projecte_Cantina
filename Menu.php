@@ -22,18 +22,20 @@ if(isset($_COOKIE["comprovant"])){
 
     <!-- Menu Mati-->
 
-
+<div id="total_menu">
     <form method="POST" action="Validacio.php" id="mati">
+        <div class="orden">
 
         <?php
-        echo "mati";
         $menu_json = file_get_contents('menuMati.json');
         $decoded_json = json_decode($menu_json, true);
         foreach($decoded_json as $key => $value) {
             $pro = $decoded_json[$key]["producto"];
             $pre = $decoded_json[$key]["precio"];
             $id = $decoded_json[$key]["id"];
-            echo "<div id='$id'>
+            $img = $decoded_json[$key]["img"];
+            echo "<div id='$id' class='imagenes'>
+                        <img src='./img/$img' class='foto_menu'>
                         <h2> $pro </h2> $pre <br>
                         <input type='button' value='+' class='afegir'>
                         <input type='text' id=im_$id name =$id class='cantidades' value='0'> 
@@ -44,24 +46,26 @@ if(isset($_COOKIE["comprovant"])){
         ?>
 
 
-        <input type="submit" value="Comprar">
-
+        <input type="submit" value="Comprar" class='comprar'>
+        </div>
     </form>
 
     <!-- Menu Tarda-->
 
-    <form method="POST" action="Validacio.php" id="tarda">
 
+
+    <form method="POST" action="Validacio.php" id="tarda">
+        <div class="orden">
         <?php
-        echo "tarda";
         $menu_json = file_get_contents('menuTarda.json');
         $decoded_json = json_decode($menu_json, true);
         foreach($decoded_json as $key => $value) {
             $pro = $decoded_json[$key]["producto"];
             $pre = $decoded_json[$key]["precio"];
             $id = $decoded_json[$key]["id"];
-
-            echo "<div id='$id'>
+            $img = $decoded_json[$key]["img"];
+            echo "<div id='$id' class='imagenes'>
+                        <img src='./img/$img' class='foto_menu'>
                         <h2> $pro </h2> $pre <br>
                         <input type='button' value='+' class='afegir'>
                         <input type='text' id=it_$id name =$id class='cantidades' value='0'> 
@@ -73,13 +77,17 @@ if(isset($_COOKIE["comprovant"])){
 
 
         <input id="c" type="hidden" value="1">
-        <input type="submit" value="Comprar">
+        <input type="submit" value="Comprar" class='comprar'>
+        </div>
     </form>
+
     <script type="text/javascript" src="/js/Menu.js"></script>
 
     <div id="ticket">
 
     </div>
+
+</div>
 
     <a href="./index.php"><button>Tornar</button></a>
 
