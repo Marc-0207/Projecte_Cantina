@@ -9,4 +9,37 @@
         PEDIDO
         ----------------
     
-        Nombre de producto: Plato Combinado---Unitats: 2----Preu unitari: 8€--Preu total: 16€----Nombre de producto: Ensaladilla URSS---Unitats: 2----Preu unitari: 1.2€--Preu total: 2.4€----
+        Nombre de producto: Plato Combinado---Unitats: 2----Preu unitari: 8€--Preu total: 16€----Nombre de producto: Ensaladilla URSS---Unitats: 2----Preu unitari: 1.2€--Preu total: 2.4€----        
+
+        USUARI
+        ----------------
+        Nom : kevin
+        Telefon: 633786756
+        Correu: a18kevhoylor@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: CocaCola---Unitats: 2----Preu unitari: 1.5€--Preu total: 3€----Nombre de producto: Cafe---Unitats: 2----Preu unitari: 1.2€--Preu total: 2.4€----Nombre de producto: Bocadillo de Bacon---Unitats: 2----Preu unitari: 2.5€--Preu total: 5€----        
+
+        USUARI
+        ----------------
+        Nom : kevin
+        Telefon: 633121212
+        Correu: a18kevhoylor@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: CocaCola---Unitats: 2----Preu unitari: 1.5€--Preu total: 3€----        
+
+        USUARI
+        ----------------
+        Nom : kevin
+        Telefon: 633898989
+        Correu: a18kevhoylor@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 4----Preu unitari: 8€--Preu total: 32€----

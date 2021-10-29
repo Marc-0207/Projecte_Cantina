@@ -1,4 +1,4 @@
- const dia = new Date();
+const dia = new Date();
 let hora = dia.getHours();
 let minutos = dia.getMinutes();
 
@@ -8,20 +8,16 @@ let tarda=document.getElementById("tarda");
 let mati=document.getElementById("mati");
 
 let mati_o_tarda="";
-if (hora >= 11){
-    if(minutos>=30){
-        mati_o_tarda="tarda";
-        mati.style.display = "none";
-    }
-    else{
-        mati_o_tarda="mati";
-        tarda.style.display = "none";
-    }
-}
-else {
-    mati_o_tarda="mati";
+if((hora < 11) || (hora == 11 && minutos <= 30)){
+    mati_o_tarda = "mati";
     tarda.style.display = "none";
 }
+else {
+    mati_o_tarda = "tarda";
+    mati.style.display = "none";
+}
+
+
 menuList = JSON.parse(document.getElementById("json_"+mati_o_tarda).value);
 console.log(menuList);
 
