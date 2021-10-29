@@ -13,8 +13,18 @@ include 'header.php';
 
 </head>
 <body>
-<p>Aquesta es la pantalla de finalització</p>
-<h1><u><br>Tiquet de compra</u></h1>
+
+<div class='final'>
+        <h1>La teva comanda s'a fet correctament</h1>
+
+</div>
+<div id="acaba">
+    <form action="./index.php">
+        <input type="submit" value="Acabar"/>
+    </form>
+</div>
+
+
 <?php
    
 
@@ -24,10 +34,10 @@ include 'header.php';
 
     session_start();
   
-    echo "Nom: ". $_GET["nom"]. "<br>";
-    echo "Correu: ". $_GET["correu"]. "<br>";
-    echo "Telefon: ". $_GET["telefon"]. "<br>";
-    echo $_SESSION["ticket"];
+    //echo "Nom: ". $_GET["nom"]. "<br>";
+    //echo "Correu: ". $_GET["correu"]. "<br>";
+    //echo "Telefon: ". $_GET["telefon"]. "<br>";
+    //echo $_SESSION["ticket"];
 
 
     $hora = date("H");
@@ -57,7 +67,6 @@ _END;
 
     fwrite($fitxer,$texto);
     fclose($fitxer);
-    echo "informacio escrita al fitxer";
 
 
     session_destroy();
@@ -66,8 +75,10 @@ _END;
 
 ?>
 
-<form action="./index.php">
-    <input type="submit" value="Acabar"/>
-</form>
+
+
+<?php
+include 'footer.php';
+?>
 </body>
 </html>
