@@ -39,7 +39,7 @@ include 'header.php';
         $nomFitxer = date("m.d.y") . "_tarda.txt";
     }
 
-    $fitxer = fopen($nomFitxer,"a+") or die ("ERROR al crear el fitxer");
+    $fitxer = fopen("./admin/comandes/".$nomFitxer, "a+") or die("Se produjo un error al crear el archivo");
 
     $texto = <<<_END
         \n

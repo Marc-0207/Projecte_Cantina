@@ -18,6 +18,31 @@ include '../header.php';
 <div>
     <a href="../index.php"><button>Tornar</button></a>
 </div>
+<?php
+echo "<h2>Totes les comandes</h2>";
+
+$dir = "../admin/comandes";
+// Open a known directory, and proceed to read its contents
+if (is_dir($dir)) {
+    if ($dh = opendir($dir)) {
+        echo "<ul>";
+        while (($file = readdir($dh)) !== false) {
+
+            if($file != "." && $file != "..") {
+                echo "<li><h4>" . $file . "</h4></li>";
+                $texto = file_get_contents("./comandes/".$file);
+                $texto = nl2br($texto);
+                echo $texto;
+                echo "<br><br>";
+            }
+        }
+        closedir($dh);
+        echo "</ul>";
+    }
+}
+
+?>
+
 
 <?php
 include '../footer.php';

@@ -1,0 +1,12 @@
+        
+
+        USUARI
+        ----------------
+        Nom : kevin
+        Telefon: 633567889
+        Correu: a18kevhoylor@inspedralbes.cat
+    
+        PEDIDO
+        ----------------
+    
+        Nombre de producto: Plato Combinado---Unitats: 2----Preu unitari: 8€--Preu total: 16€----Nombre de producto: Ensaladilla URSS---Unitats: 2----Preu unitari: 1.2€--Preu total: 2.4€----
